@@ -1,0 +1,26 @@
+﻿@model IEnumerable<System.Security.Claims.Claim>
+@{
+    ViewBag.Title = "My Account";
+}
+<h2>@ViewBag.Title</h2>
+
+<br />
+<h4>Email:</h4>
+<p>@Model.FirstOrDefault(m => m.Type == "email").Value</p>
+
+<h4>First Name:</h4>
+<p>@Model.FirstOrDefault(m => m.Type == "given_name").Value</p>
+
+<h4>Last Name:</h4>
+<p>@Model.FirstOrDefault(m => m.Type == "family_name").Value</p>
+
+<h4>Permissions:</h4>
+<dl>
+    @foreach (var claim in Model)
+    {
+        if (@claim.Type == "role")
+        {
+            <dd>@claim.Value</dd>
+        }
+    }
+</dl>

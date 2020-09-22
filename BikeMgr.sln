@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.Web", "BikeMgr.Web\BikeMgr.Web.csproj", "{8A88462D-0728-402B-91CF-6F84107102C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.API", "BikeMgr.API\BikeMgr.API.csproj", "{503EF131-DDD8-4081-A2B3-1881DAB9BCB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.Auth", "BikeMgr.Auth\BikeMgr.Auth.csproj", "{5C374385-1D33-41B6-AA69-FA3C3086BD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.Core", "BikeMgr.Core\BikeMgr.Core.csproj", "{71341A07-75C5-445C-B082-D102E43BE062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.Infrastructure", "BikeMgr.Infrastructure\BikeMgr.Infrastructure.csproj", "{B7C82099-F156-42A9-AAB3-09EB729A8AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeMgr.Tests", "BikeMgr.Tests\BikeMgr.Tests.csproj", "{F5194169-6FE6-46C5-AFF5-C66BB396347F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A88462D-0728-402B-91CF-6F84107102C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A88462D-0728-402B-91CF-6F84107102C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A88462D-0728-402B-91CF-6F84107102C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A88462D-0728-402B-91CF-6F84107102C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503EF131-DDD8-4081-A2B3-1881DAB9BCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503EF131-DDD8-4081-A2B3-1881DAB9BCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503EF131-DDD8-4081-A2B3-1881DAB9BCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503EF131-DDD8-4081-A2B3-1881DAB9BCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C374385-1D33-41B6-AA69-FA3C3086BD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C374385-1D33-41B6-AA69-FA3C3086BD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C374385-1D33-41B6-AA69-FA3C3086BD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C374385-1D33-41B6-AA69-FA3C3086BD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71341A07-75C5-445C-B082-D102E43BE062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71341A07-75C5-445C-B082-D102E43BE062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71341A07-75C5-445C-B082-D102E43BE062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71341A07-75C5-445C-B082-D102E43BE062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C82099-F156-42A9-AAB3-09EB729A8AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C82099-F156-42A9-AAB3-09EB729A8AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C82099-F156-42A9-AAB3-09EB729A8AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C82099-F156-42A9-AAB3-09EB729A8AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5194169-6FE6-46C5-AFF5-C66BB396347F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5194169-6FE6-46C5-AFF5-C66BB396347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5194169-6FE6-46C5-AFF5-C66BB396347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5194169-6FE6-46C5-AFF5-C66BB396347F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {389F4939-9392-4430-AB76-18DCFEDBE777}
+	EndGlobalSection
+EndGlobal

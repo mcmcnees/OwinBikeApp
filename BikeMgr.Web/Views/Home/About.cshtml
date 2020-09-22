@@ -1,0 +1,38 @@
+﻿@model IEnumerable<System.Security.Claims.Claim>
+
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title</h2>
+
+<p>
+    This is a sample business application for managing bikes. It is a fictitious application. The app was built with Microsoft ASP.NET MVC 
+    in a clean microservice architecture.
+</p>
+<p>
+    <strong>Tech Stack:</strong>
+    <ul>
+        <li>ASP.NET MVC 5</li>
+        <li>ASP.NET Web API 2</li>
+        <li>OWIN</li>
+        <li>Identity Server 3</li>
+        <li>Entity Framework</li>
+        <li>Unity</li>
+        <li>Bootstrap</li>
+        <li>Javascript</li>
+        <li>JQuery</li>
+        <li>LINQ</li>
+    </ul>
+</p>
+
+
+@*<dl>
+    @foreach (var claim in Model)
+    {
+        if (@claim.Type != "sub")
+        {
+            <dt>@claim.Type</dt>
+            <dd>@claim.Value</dd>
+        }
+    }
+</dl>*@
